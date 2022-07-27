@@ -12,7 +12,7 @@ library(ape)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #reads in data.  
-#
+
 alignment<-haplotypes::read.fas(file="B_tumba_alignment.fasta")
 
 #generates haplotype files#
